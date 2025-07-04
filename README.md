@@ -1,3 +1,9 @@
+
+
+========================================
+original readme file by acids-ircam:
+
+
 # Streamable Neural Audio Synthesis With Non-Causal Convolutions
 
 Deep learning models are mostly used in an offline inference fashion. However, this strongly limits the use of these models inside audio generation setups, as most creative workflows are based on real-time digital signal processing. Although approaches based on recurrent networks can be naturally adapted to this buffer-based computation, the use of convolutions still poses some serious challenges. To tackle this issue, the use of _causal streaming convolutions_ have been proposed. However, this requires specific complexified training and can impact the resulting audio quality.
